@@ -5,7 +5,7 @@
 
 int main() {
     Quiz quiz;
-    quiz.carregarPerguntas("perguntas.txt"); // Ensure this path is correct
+    quiz.carregarPerguntas("perguntas.txt"); 
 
     int modo;
     cout << "Selecione o modo de jogo:\n1. Modo Individual\n2. Modo 1vs1\n";
