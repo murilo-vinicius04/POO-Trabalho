@@ -1,0 +1,124 @@
+1;1;História;Em que ano ocorreu a Proclamação da República no Brasil?;1822;1889;1500;1945;B;Aconteceu no final do século XIX, marcando o fim da monarquia no país.
+2;1;História;Quem foi o primeiro presidente do Brasil?;Getúlio Vargas;Juscelino Kubitschek;Deodoro da Fonseca;Itamar Franco;C;Ele estava diretamente envolvido no processo de transição do Império para a República.
+3;1;História;Qual guerra foi travada entre 1914 e 1918?;Guerra Civil Americana;Segunda Guerra Mundial;Primeira Guerra Mundial;Guerra do Vietnã;C;Foi o primeiro grande conflito global do século XX, envolvendo potências europeias e outras nações.
+4;1;História;Quem descobriu o Brasil?;Cristóvão Colombo;Vasco da Gama;Pedro Álvares Cabral;Fernando de Noronha;C;Chegou às terras brasileiras em 1500, a serviço da Coroa Portuguesa.
+5;1;História;Qual foi a capital do Brasil antes de Brasília?;Rio de Janeiro;São Paulo;Salvador;Belo Horizonte;A;Cidade litorânea, famosa por suas paisagens e pelo carnaval.
+6;2;História;Qual foi o principal motivo da Revolução Industrial?;Descoberta do Brasil;Avanços na agricultura;Invenção da roda;Desenvolvimento de máquinas e fábricas;D;Transformou a produção artesanal em mecanizada, mudando a economia e a sociedade.
+7;2;História;Quem liderou a independência do Brasil em relação a Portugal?;Tiradentes;José Bonifácio;Dom Pedro I;Marechal Deodoro;C; Era um membro da família real portuguesa, que viveu no Brasil e proclamou a liberdade em 1822.
+8;2;História;Qual tratado encerrou a Primeira Guerra Mundial?;Tratado de Versalhes;Tratado de Tordesilhas;Tratado de Paris;Tratado de Lisboa;A;Impôs pesadas condições aos países derrotados, especialmente à Alemanha.
+9;2;História;Durante qual período ocorreu a Ditadura Militar no Brasil?;1930-1945;1964-1985;1889-1930;1985-2000;B;Começou após um golpe de Estado na década de 1960.
+10;2;História;Quem foi o líder da Revolução Cubana em 1959?;Che Guevara;Fidel Castro;Hugo Chávez;Nicolás Maduro;B;Conduziu uma insurgência que derrubou um regime autoritário e governou a ilha caribenha por décadas.
+11;3;História;Qual foi o objetivo principal da Revolução Francesa?;Expandir o Império Romano;Estabelecer a monarquia absoluta;Promover igualdade, liberdade e fraternidade;Promover o capitalismo desenfreado;C;Mudança radical na estrutura social e política.
+12;3;História;Quem foi o imperador de Roma conhecido por construir um muro na Britânia?;Nero;Calígula;Constantino;Agrícola;D;Referência ao Muro de Adriano.
+13;3;História;Qual civilização construiu Machu Picchu?;Maias;Astecas;Incas;Olmecas;C;Localizada no Peru.
+14;3;História;Quem foi o líder da União Soviética durante a Segunda Guerra Mundial?;Leon Trotsky;Vladimir Lenin;Joseph Stalin;Nikita Khrushchev;C;Conhecido por seu regime autoritário.
+15;3;História;Qual foi a principal causa da Guerra Fria?;Disputa por territórios na África;Conflito ideológico entre EUA e URSS;Luta pelo controle do Oriente Médio;Rivalidade econômica na Ásia;B;Foi uma rivalidade global pós-Segunda Guerra Mundial.
+16;4;História;Quem foi o responsável pela teoria da relatividade?;Isaac Newton;Albert Einstein;Nikola Tesla;Galileu Galilei;B;Físico alemão renomado.
+17;4;História;Qual foi o impacto da Batalha de Stalingrado na Segunda Guerra Mundial?;Vitória alemã;Ponto de virada a favor dos Aliados;Início da guerra no Pacífico;Fim imediato da guerra;B;Mudou o curso do conflito na Europa.
+18;4;História;O que foi a Revolução Russa de 1917?;Início da monarquia;Queda da União Soviética;Estabelecimento do comunismo;Aliança com a Alemanha;C;Liderada por Lenin.
+19;4;História;Quem foi o imperador japonês durante a Segunda Guerra Mundial?;Akihito;Hirohito;Meiji;Taisho;B;Reinou de 1926 a 1989.
+20;4;História;Qual foi a Conferência que dividiu a Alemanha após a Segunda Guerra Mundial?;Conferência de Yalta;Conferência de Potsdam;Conferência de Versalhes;Conferência de Teerã;B;Realizada em 1945.
+21;5;História;Qual foi a importância da Batalha de Verdun na Primeira Guerra Mundial?;Foi a batalha final que encerrou a guerra;Representou o maior número de baixas em uma única batalha;Introduziu o uso de tanques no campo de batalha;Garantiu a vitória alemã na frente ocidental;B;Luta prolongada com altíssimas perdas humanas.
+22;5;História;Quem escreveu "O Príncipe", uma obra fundamental do pensamento político?;Maquiavel;Thomas Hobbes;John Locke;Karl Marx;A;Autor renascentista italiano.
+23;5;História;Qual foi a consequência principal do Tratado de Versalhes para a Alemanha?;Expansão territorial;Indústria fortalecida;Reparações de guerra pesadas;União com a França;C;Causou insatisfação que contribuiu para a Segunda Guerra Mundial.
+24;5;História;Quem foi o líder do movimento de independência da Índia?;Mahatma Gandhi;Nelson Mandela;Subhas Chandra Bose;Jawaharlal Nehru;A;Defendeu a não-violência.
+25;5;História;Qual império foi governado por Carlos Magno?;Império Romano;Império Bizantino;Império Carolíngio;Império Otomano;C;Unificou grande parte da Europa Ocidental.
+26;1;Geografia;Qual é o maior país do mundo em extensão territorial?;Estados Unidos;China;Canadá;Rússia;D;Ocupa a maior área terrestre global.
+27;1;Geografia;Qual é a capital do Brasil?;São Paulo;Rio de Janeiro;Brasília;Salvador;C;Planejada e inaugurada em 1960.
+28;1;Geografia;Qual é o rio mais longo do mundo?;Amazonas;Nilo;Mississipi;Yangtzé;A;Flui principalmente pela América do Sul.
+29;1;Geografia;Qual é o maior deserto do mundo?;Deserto de Gobi;Deserto do Saara;Deserto da Arábia;Deserto da Antártica;D;Coberto de gelo e neve.
+30;1;Geografia;Qual é a montanha mais alta do mundo?;K2;Monte Everest;Kangchenjunga;Lhotse;B;Localizada na fronteira Nepal-China.
+31;2;Geografia;Qual país tem a maior população do mundo?;Índia;Estados Unidos;China;Brasil;C;Supera todos em número de habitantes.
+32;2;Geografia;Qual é a capital da França?;Londres;Berlim;Madri;Paris;D;Conhecida como a "Cidade Luz".
+33;2;Geografia;Em qual continente está localizado o Egito?;Ásia;Europa;África;América;C;Famoso pelas pirâmides.
+34;2;Geografia;Qual é a maior floresta tropical do mundo?;Floresta de Congo;Floresta Amazônica;Floresta de Borneo;Floresta de Sumatra;B;Localizada principalmente no Brasil.
+35;2;Geografia;Qual é o rio que passa por Paris?;Rio Nilo;Rio Amazonas;Rio Danúbio;Rio Sena;D;Conhecido por suas pontes e monumentos.
+36;3;Geografia;Qual é a capital da Austrália?;Sydney;Melbourne;Canberra;Brisbane;C;Não é a cidade mais populosa do país.
+37;3;Geografia;Qual é o ponto mais alto da América do Norte?;Denali;Monte Logan;Pico de Orizaba;Monte Rainier;A;Também conhecido como Monte McKinley.
+38;3;Geografia;Qual é o país com mais fronteiras no mundo?;China;Brasil;Rússia;Alemanha;C;Faz fronteira com 16 países.
+39;2;Geografia;Qual é a capital do Japão?;Kyoto;Osaka;Tóquio;Nagoya;C;Uma das maiores metrópoles do mundo.
+40;3;Geografia;Qual é a maior ilha do mundo?;Madagáscar;Nova Guiné;Bornéu;Groenlândia;D;Pertence ao Reino da Dinamarca.
+41;4;Geografia;Qual é a maior cadeia de montanhas do mundo?;Andes;Himalaias;Montes Rochosos;Montes Urais;B;Inclui o Monte Everest.
+42;4;Geografia;Qual é o país mais populoso da África?;Nigéria;Egito;África do Sul;Quênia;A;Possui mais de 200 milhões de habitantes.
+43;4;Geografia;Qual é a capital da Islândia?;Reykjavik;Oslo;Helsinque;Copenhague;A;A mais setentrional das capitais europeias.
+44;4;Geografia;Qual é o lago mais profundo do mundo?;Lago Vitória;Lago Baikal;Lago Superior;Lago Tanganica;B;Localizado na Sibéria.
+45;4;Geografia;Qual é a maior bacia hidrográfica do mundo?;Bacia do Nilo;Bacia do Amazonas;Bacia do Mississipi;Bacia do Congo;B;Contém a maior quantidade de água doce.
+46;5;Geografia;Qual é o ponto mais baixo da Terra em terra firme?;Vale da Morte;Mar Morto;Lago Assal;Depressão de Salinas;B;Localizado entre Israel e Jordânia.
+47;5;Geografia;Qual é o nome da corrente marítima que influencia o clima da costa oeste da Europa?;Corrente de Humboldt;Corrente do Golfo;Corrente de Kuroshio;Corrente de Benguela;B;Transporta águas quentes do Golfo do México.
+48;5;Geografia;Qual é a capital do Butão?;Thimphu;Kathmandu;Dhaka;Colombo;A;Uma das menores capitais do mundo.
+49;5;Geografia;Qual é o maior arquipélago do mundo?;Ilhas Filipinas;Ilhas Maldivas;Ilhas Sunda;Ilhas da Indonésia;D;Contém milhares de ilhas.
+50;5;Geografia;Qual é a montanha mais alta da África?;Kilimanjaro;Monte Kenya;Monte Elgon;Ras Dashen;A;Localizada na Tanzânia.
+51;1;Cinema;Quem dirigiu o filme "Titanic"?;Steven Spielberg;James Cameron;Martin Scorsese;Quentin Tarantino;B;Conhecido também por "Avatar".
+52;1;Cinema;Qual filme apresenta o personagem "Iron Man"?;Batman;Superman;Homem de Ferro;Capitão América;C;Nome verdadeiro: Tony Stark.
+53;1;Cinema;Qual ator interpretou Jack Dawson em "Titanic"?;Leonardo DiCaprio;Brad Pitt;Tom Cruise;Johnny Depp;A;Também estrelou "O Regresso".
+54;1;Cinema;Qual filme de animação é dirigido por John Lasseter?;Toy Story;Shrek;Frozen;Procurando Nemo;A;Primeiro longa da Pixar.
+55;1;Cinema;Qual é o gênero do filme "The Godfather"?;Comédia;Drama;Terror;Ficção Científica;B;Focado no crime organizado.
+56;2;Cinema;Qual atriz interpretou a personagem Katniss Everdeen na série "Jogos Vorazes"?;Jennifer Lawrence;Scarlett Johansson;Emma Watson;Natalie Portman;A;Também estrelou "X-Men".
+57;2;Cinema;Em que filme Leonardo DiCaprio ganhou seu primeiro Oscar de Melhor Ator?;Titanic;O Regresso;A Origem;Django Livre;B;Dirigido por Alejandro González Iñárritu.
+58;2;Cinema;Em que ano foi lançado o primeiro filme da saga "Star Wars"?;1975;1977;1980;1983;B;Dirigido por George Lucas.
+59;2;Cinema;Qual ator interpretou Forrest Gump?;Tom Hanks;Robin Wright;Gary Sinise;Sally Field;A;Também estrelou "Apollo 13".
+60;3;Cinema;Qual é o primeiro filme do Universo Cinematográfico Marvel (MCU)?;Capitão América: O Primeiro Vingador;Homem de Ferro;Thor;Os Vingadores;B;Lançado em 2008.
+61;3;Cinema;Qual diretor é conhecido por filmes como "Pulp Fiction" e "Kill Bill"?;Stanley Kubrick;Quentin Tarantino;Christopher Nolan;Tim Burton;B;Estilo narrativo não linear.
+62;3;Cinema;Qual é o ator que interpreta o Capitão América?;Chris Evans;Chris Hemsworth;Robert Downey Jr.;Mark Ruffalo;A;Também conhecido como "Capitão América".
+63;3;Cinema;Qual filme de Christopher Nolan envolve sonhos dentro de sonhos?;Memento;A Origem;Interstellar;Dunkirk;B;Explora o subconsciente.
+64;3;Cinema;Qual atriz interpretou Hermione Granger na série "Harry Potter"?;Emma Watson;Emma Stone;Jennifer Lawrence;Emma Thompson;A;Conhecida também por "Beauty and the Beast".
+65;4;Cinema;Qual filme ganhou o Oscar de Melhor Filme em 2020?;1917;Parasita;Ford vs Ferrari;Joker;B;Primeiro filme em língua não inglesa a vencer.
+66;4;Cinema;Quem compôs a trilha sonora do filme "Star Wars"?;John Williams;Hans Zimmer;Ennio Morricone;Danny Elfman;A;Famoso compositor americano.
+67;4;Cinema;Qual filme é conhecido por seu efeito "bullet time"?;Matrix;Inception;Interstellar;Blade Runner;A;Revolucionou os efeitos visuais.
+68;4;Cinema;Qual atriz ganhou o Oscar de Melhor Atriz por "La La Land"?;Emma Stone;Natalie Portman;Jennifer Lawrence;Meryl Streep;A;Também conhecida por "Birdman".
+69;4;Cinema;Qual filme é conhecido por sua trilha sonora composta por Ennio Morricone?;Cães de Aluguel;Era Uma Vez no Oeste;O Poderoso Chefão;Gladiador;B;Famoso spaghetti western.
+70;5;Cinema;Em "2001: Uma Odisséia no Espaço", quem foi o diretor e roteirista?;Stanley Kubrick;Alfred Hitchcock;Ridley Scott;George Lucas;A;Também conhecido por "The Shining".
+71;5;Cinema;Qual filme de animação japonês foi dirigido por Hayao Miyazaki e ganhou o Oscar de Melhor Filme de Animação em 2003?;Meu Amigo Totoro;A Viagem de Chihiro;Princesa Mononoke;O Castelo Animado;B;Título original: "Sen to Chihiro no Kamikakushi".
+72;5;Cinema;Qual filme de Stanley Kubrick é conhecido por sua representação futurista e a inteligência artificial HAL 9000?;Laranja Mecânica;2001: Uma Odisséia no Espaço;Dr. Estranho Amor;O Iluminado;B;Famoso por seus efeitos visuais inovadores.
+73;5;Cinema;Qual ator interpretou Hannibal Lecter em "O Silêncio dos Inocentes"?;Anthony Hopkins;Jodie Foster;Robert De Niro;Al Pacino;A;Ganhou o Oscar por essa atuação.
+74;5;Cinema;Qual filme dirigido por Hayao Miyazaki é conhecido por seu tema ambiental?;Meu Amigo Totoro;A Viagem de Chihiro;Princesa Mononoke;O Castelo Animado;C;Focado na preservação da natureza.
+75;1;Música;Qual banda britânica é conhecida pelo álbum "Abbey Road"?;The Rolling Stones;The Beatles;Queen;Pink Floyd;B;Integrantes famosos como John Lennon e Paul McCartney.
+76;1;Música;Quem é conhecido como o "Rei do Pop"?;Elvis Presley;Michael Jackson;Justin Timberlake;Prince;B;Famoso por seu moonwalk.
+77;1;Música;Qual instrumento de corda tem seis cordas e é tocado com os dedos ou palheta?;Violino;Guitarra;Baixo;Violoncelo;B;Popular em vários gêneros musicais.
+78;1;Música;Qual cantor é conhecido por "Thriller"?;Elvis Presley;Michael Jackson;Prince;Madonna;B;O "Rei do Pop".
+79;1;Música;Qual é o instrumento de sopro associado ao jazz?;Violino;Saxofone;Guitarra;Piano;B;Famoso no Harlem Renaissance.
+80;2;Música;Qual cantora lançou o álbum "Lemonade" em 2016?;Beyoncé;Rihanna;Taylor Swift;Lady Gaga;A;Primeiro single: "Formation".
+81;2;Música;Qual instrumento é tradicionalmente associado à música clássica e possui teclas brancas e pretas?;Violino;Piano;Guitarra;Bateria;B;Usado em concertos e composições variadas.
+82;2;Música;Qual banda britânica é conhecida pelo álbum "The Dark Side of the Moon"?;Led Zeppelin;Pink Floyd;The Who;Black Sabbath;B;Álbum conceitual icônico.
+83;2;Música;Qual cantora é conhecida como a "Rainha do Soul"?;Aretha Franklin;Whitney Houston;Beyoncé;Adele;A;Famosa por "Respect".
+84;2;Música;Qual banda britânica é conhecida pelo álbum "The Dark Side of the Moon"?;Led Zeppelin;Pink Floyd;The Who;Black Sabbath;B;Álbum conceitual icônico.
+85;3;Música;Qual compositor é conhecido pela sinfonia nº 9, também chamada de "Coral"?;Wolfgang Amadeus Mozart;Ludwig van Beethoven;Johann Sebastian Bach;Franz Schubert;B;Inclui o famoso "Hino à Alegria".
+86;3;Música;Qual banda lançou o álbum "Dark Side of the Moon"?;Led Zeppelin;Pink Floyd;The Who;Black Sabbath;B;Conhecido por suas inovações sonoras.
+87;3;Música;Qual artista é conhecido por seu álbum "Thriller"?;Prince;Michael Jackson;Madonna;Elvis Presley;B;O álbum mais vendido de todos os tempos.
+88;3;Música;Qual banda lançou a música "Smells Like Teen Spirit"?;Nirvana;Pearl Jam;Soundgarden;Alice in Chains;A;Hino do grunge.
+89;3;Música;Quem compôs a "Novena Sinfonia"?;Beethoven;Mozart;Bach;Tchaikovsky;A;Conhecido por suas sinfonias grandiosas.
+90;4;Música;Qual gênero musical combina elementos de jazz e rock?;Blues;Bossa Nova;Jazz Rock;Reggae;C;Popular nos anos 70.
+91;4;Música;Qual banda é conhecida pelo hino "Bohemian Rhapsody"?;Queen;The Beatles;The Rolling Stones;Pink Floyd;A;Frontman: Freddie Mercury.
+92;4;Música;Qual compositor é famoso por suas obras para piano, como "Claro de Luna"?;Franz Schubert;Frédéric Chopin;Ludwig van Beethoven;Wolfgang Amadeus Mozart;B;Polonês renomado.
+93;4;Música;Qual artista lançou a canção "Rolling in the Deep"?;Adele;Beyoncé;Lady Gaga;Rihanna;A;Ganhou vários Grammys.
+94;4;Música;Qual banda é conhecida pelo álbum "Nevermind"?;Nirvana;Pearl Jam;Soundgarden;Alice in Chains;A;Liderada por Kurt Cobain.
+95;5;Música;Qual é a obra de Igor Stravinsky que causou controvérsia em sua estreia em Paris em 1913?;A Sagração da Primavera;O Pássaro de Fogo;Petrushka;Romeo e Julieta;A;Famosa por sua coreografia inovadora.
+96;5;Música;Quem é o autor do conceito musical conhecido como "Serialismo"?;Arnold Schoenberg;Dmitri Shostakovich;Béla Bartók;Igor Stravinsky;A;Pioneiro da música atonal.
+97;5;Música;Qual compositor é conhecido por suas obras para orquestra como "O Lago dos Cisnes"?;Igor Stravinsky;Pyotr Ilyich Tchaikovsky;Johann Strauss;Claude Debussy;B;Rússia, famoso balé.
+98;5;Música;Qual artista lançou o álbum "25"?;Adele;Taylor Swift;Beyoncé;Rihanna;A;Inclui a faixa "Hello".
+99;5;Música;Qual cantor é conhecido por sua técnica vocal chamada "falsete"?;Freddie Mercury;Prince;Frank Sinatra;Justin Timberlake;C;Ícone do jazz e pop.
+100;1;Esportes;Quantas jogares formam um time de futebol em campo?;5;7;11;15;C;Deve contar o goleiro.
+101;1;Esportes;Em qual esporte é utilizado um taco e uma bola branca?;Basquete;Vôlei;Futebol;Sinuca;D;Também conhecido como "bilhar".
+102;1;Esportes;Qual país sediou as Olimpíadas de 2016?;China;Reino Unido;Brasil;Rússia;C;Cidade-sede: Rio de Janeiro.
+103;1;Esportes;Quem é conhecido como "O Maior" no boxe?;Floyd Mayweather;Mike Tyson;Muhammad Ali;Manny Pacquiao;C;Conhecido por suas habilidades e carisma.
+104;1;Esportes;Qual seleção venceu a Copa do Mundo de 2014?;Argentina;Alemanha;Brasil;Espanha;B;Vitória histórica sobre o Brasil no Mineirão.
+105;2;Esportes;Qual jogador é conhecido como "O Fenômeno"?;Ronaldo Nazário;Ronaldo Fenômeno;Ronaldinho Gaúcho;Roberto Carlos;B;Brasileiro famoso no futebol.
+106;2;Esportes;Qual nadador detém o recorde de mais medalhas olímpicas?;Michael Phelps;Mark Spitz;Ian Thorpe;Ryan Lochte;A;Especialista em nado livre e borboleta.
+107;2;Esportes;Qual é a distância oficial de uma maratona?;42,195 km;40 km;50 km;35 km;A;Correu por Filipe Deschamps em 1896.
+108;2;Esportes;Qual jogador de futebol tem o recorde de mais gols na história das Copas do Mundo?;Pelé;Ronaldo Fenômeno;Miroslav Klose;Cristiano Ronaldo;C;Jogador alemão aposentado.
+109;2;Esportes;Em que ano foi introduzido o VAR (Video Assistant Referee) na Copa do Mundo?;2014;2018;2022;2026;B;Primeira utilização na Copa da Rússia.
+110;3;Esportes;Em qual esporte é utilizada a técnica de "slam dunk"?;Basquete;Vôlei;Tênis;Futebol;A;Movimento de enterrar a bola.
+111;3;Esportes;Qual é o evento esportivo que ocorre a cada quatro anos e reúne vários esportes?;Copa do Mundo;Jogos Olímpicos;Tour de France;Campeonato Mundial de Fórmula 1;B;Inclui verão e inverno.
+112;5;Esportes;Qual é a principal competição de ciclismo de estrada?;Tour de France;Giro d'Italia;Vuelta a España;Todas as acima;D;Os três Grand Tours.
+113;3;Esportes;Qual atleta é conhecido como "The Greatest" no boxe?;Mike Tyson;Muhammad Ali;Floyd Mayweather;Manny Pacquiao;B;Lendário campeão.
+114;3;Esportes;Qual é a modalidade esportiva que envolve pilotar uma motocicleta em circuitos fechados?;Motocross;Superbike;MotoGP;Enduro;C;O mais rápido das categorias.
+115;4;Esportes;Qual é a modalidade esportiva que combina ginástica e trampolim?;Acrobacia;Trampolim acrobático;Mergulho sincronizado;Polo aquático;B;Demonstrada nos Jogos Olímpicos.
+116;4;Esportes;Qual atleta é conhecido como "His Airness"?;Michael Jordan;LeBron James;Kobe Bryant;Magic Johnson;A;Legendário Chicago Bulls.
+117;4;Esportes;Qual é a principal competição de boxe profissional?;Olympic Boxing;World Boxing Championship;The Ring Magazine titles;Golden Gloves;C;Famosa por títulos como o cinturão WBA.
+118;4;Esportes;Qual é o esporte nacional do Japão?;Sumô;Karate;Judo;Beisebol;A;Luta tradicional japonesa.
+119;4;Esportes;Qual é a modalidade esportiva que envolve figuras acrobáticas no ar?;Ginástica;Balé;Dança;Parkour;A;Inclui eventos como o solo e as barras.
+120;5;Esportes;Qual jogador de futebol tem o recorde de mais gols na história das Copas do Mundo?;Pelé;Ronaldo Fenômeno;Miroslav Klose;Cristiano Ronaldo;C;Jogador alemão aposentado.
+121;5;Esportes;Qual é o esporte mais popular nos Estados Unidos?;Futebol;Basquete;Beisebol;Hóquei;C;Também conhecido como "America's pastime".
+122;5;Esportes;Qual é a principal competição de atletismo a nível mundial?;Copa do Mundo;Jogos Olímpicos;Mundial de Atletismo;Championship League;C;Organizado pela IAAF.
+123;5;Esportes;Qual é a principal competição de ciclismo de pista?;Tour de France;Giro d'Italia;UCI Track Cycling World Championships;Vuelta a España;C;Organizada pela UCI.
+124;5;Esportes;Qual é a principal competição de beisebol a nível mundial?;World Series;Copa do Mundo de Beisebol;Champions League de Beisebol;Little League World Series;A;Realizada nos Estados Unidos.
