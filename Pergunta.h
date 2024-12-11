@@ -16,8 +16,8 @@ private:
     string dica;
 
 public:
-    Pergunta(int id, int n, string cat, string enun, vector<string> ops, char resp, string dica_ = "")
-        : id(id), nivel(n), categoria(cat), enunciado(enun), opcoes(ops), resposta(toupper(resp)), dica(dica_) {}
+    Pergunta(int _id, int _nivel, string _categoria, string _enunciado, vector<string> _opcoes, char _resposta, string _dica = "")
+        : id(_id), nivel(_nivel), categoria(_categoria), enunciado(_enunciado), opcoes(_opcoes), resposta(toupper(_resposta)), dica(_dica) {}
 
     // Construtor de cópia
     Pergunta(const Pergunta& other)

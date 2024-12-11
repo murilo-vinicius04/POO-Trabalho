@@ -18,7 +18,7 @@ private:
     void salvarPontuacao(const Usuario& usuario);
     void excluirAlternativas(Pergunta& pergunta);
     void exibirRanking();
-    vector<Pergunta> perguntas; // Supondo que as perguntas são carregadas aqui
+    vector<Pergunta> perguntas; 
 };
 
 #endif // QUIZ_H

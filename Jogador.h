@@ -15,15 +15,13 @@ private:
     int pular;
 
 public:
-    Jogador(string n, int excluirAlt = 1, int d = 2, int p = 1) 
-        : nome(n), pontuacao(0), excluirAlternativas(excluirAlt), dica(d), pular(p) {}
+    Jogador(const string& _nome, int _excluirAlternativas = 1, int _dica = 2, int _pular = 1) 
+        : nome(_nome), pontuacao(0), excluirAlternativas(_excluirAlternativas), dica(_dica), pular(_pular) {}
 
-    // Construtor de cópia
     Jogador(const Jogador& other)
         : nome(other.nome), pontuacao(other.pontuacao), excluirAlternativas(other.excluirAlternativas),
           dica(other.dica), pular(other.pular) {}
 
-    // Destrutor
     ~Jogador() {}
 
     string getNome() const { return nome; }
@@ -44,19 +42,10 @@ public:
     string obterNome() const override {
         return nome;
     }
-
-    // Sobrecarga do operador <<
-    friend ostream& operator<<(ostream& os, const Jogador& jogador) {
-        os << "Nome: " << jogador.obterNome() << ", Pontuação: " << jogador.getPontuacao();
-        return os;
-    }
-
-    // Sobrecarga do operador +
-    Jogador operator+(const Jogador& outro) const {
-        Jogador novoJogador(this->nome + " & " + outro.nome);
-        novoJogador.setPontuacao(this->pontuacao + outro.pontuacao);
-        return novoJogador;
-    }
 };
+
+ostream& operator<<(ostream& os, const Jogador& jogador);
+
+Jogador& operator+=(Jogador& jogador, int pontos);
 
 #endif // JOGADOR_H

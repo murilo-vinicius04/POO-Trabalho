@@ -1,5 +1,18 @@
-all: 
-	g++ Quiz.cpp main.cpp -o quiz_game
+CXX = g++
+CXXFLAGS = -std=c++11 -Wall
 
-run:
-	./quiz_game
+TARGET = quiz_game
+SRCS = main.cpp Quiz.cpp Jogador.cpp
+
+all: $(TARGET)
+
+$(TARGET):
+	$(CXX) $(CXXFLAGS) -o $@ $(SRCS)
+
+clean:
+	rm -f $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+.PHONY: all clean run
