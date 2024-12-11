@@ -11,6 +11,7 @@ class Quiz {
 public:
     void modoIndividual();
     void carregarPerguntas(const string& arquivoNome);
+    void exibirRegrasModoIndividual();
 private:
     Pergunta sortearPergunta(int nivel);
     Pergunta sortearPerguntaPorCategoria(int nivel, const string& categoria);

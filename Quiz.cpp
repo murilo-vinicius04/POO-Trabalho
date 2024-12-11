@@ -299,3 +299,24 @@ void Quiz::carregarPerguntas(const string& arquivoNome) {
 
     arquivo.close();
 }
+
+void Quiz::exibirRegrasModoIndividual() {
+    cout << "\n=== Regras do Modo Individual ===\n";
+    cout << "1. Objetivo: Responda perguntas e acumule pontos.\n";
+    cout << "   Perguntas mais difíceis valem mais pontos.\n";
+    cout << "2. Dificuldade Crescente: O jogo começa no nível 1 e\n";
+    cout << "   as perguntas ficam mais difíceis à medida que você avança.\n";
+    cout << "3. Perguntas Especiais: Em momentos especiais, você\n";
+    cout << "   terá a chance de responder a uma pergunta única e desafiadora.\n";
+    cout << "   - Escolha uma categoria favorita.\n";
+    cout << "   - Prepare-se para essas perguntas!\n";
+    cout << "   - Não há ajudas disponíveis para perguntas especiais.\n";
+    cout << "4. Ajudas Disponíveis:\n";
+    cout << "   - Excluir duas alternativas: Remove duas respostas incorretas (1 vez por jogo).\n";
+    cout << "   - Pular pergunta: Avança para a próxima pergunta sem perder pontos (1 vez por jogo).\n";
+    cout << "   - Dica: Receba uma dica útil (2 vezes por jogo).\n";
+    cout << "5. Fim do Jogo: O jogo termina se você errar uma resposta.\n";
+    cout << "   - Sua pontuação final será salva no ranking, se for uma das melhores.\n";
+    cout << "6. Ranking: O ranking com as melhores pontuações será exibido ao final.\n";
+    cout << "=================================\n\n";
+}

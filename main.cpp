@@ -12,6 +12,7 @@ int main() {
     cin >> modo;
 
     if (modo == 1) {
+        quiz.exibirRegrasModoIndividual();
         quiz.modoIndividual();
     } else if (modo == 2) {
         // Implementar modo 1vs1
