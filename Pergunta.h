@@ -6,7 +6,7 @@
 using namespace std;
 
 class Pergunta {
-public:
+private:
     int id;
     int nivel;
     string categoria;
@@ -15,8 +15,40 @@ public:
     char resposta;
     string dica;
 
-    Pergunta(int i, int n, const string& c, const string& e, const vector<string>& o, char r, const string& d)
-        : id(i), nivel(n), categoria(c), enunciado(e), opcoes(o), resposta(r), dica(d) {}
+public:
+    Pergunta(int id, int n, string cat, string enun, vector<string> ops, char resp, string dica_ = "")
+        : id(id), nivel(n), categoria(cat), enunciado(enun), opcoes(ops), resposta(toupper(resp)), dica(dica_) {}
+
+    // Construtor de cópia
+    Pergunta(const Pergunta& other)
+        : id(other.id), nivel(other.nivel), categoria(other.categoria), enunciado(other.enunciado),
+          opcoes(other.opcoes), resposta(other.resposta), dica(other.dica) {}
+
+    // Destrutor
+    ~Pergunta() {}
+
+    int getId() const { return id; }
+    void setId(int i) { id = i; }
+
+    int getNivel() const { return nivel; }
+    void setNivel(int n) { nivel = n; }
+
+    string getCategoria() const { return categoria; }
+    void setCategoria(const string& c) { categoria = c; }
+
+    string getEnunciado() const { return enunciado; }
+    void setEnunciado(const string& e) { enunciado = e; }
+
+    vector<string> getOpcoes() const { return opcoes; }
+    void setOpcoes(const vector<string>& o) { opcoes = o; }
+
+    char getResposta() const { return resposta; }
+    void setResposta(char r) { resposta = toupper(r); }
+
+    string getDica() const { return dica; }
+    void setDica(const string& d) { dica = d; }
+
+    void atualizarOpcoes(const vector<string>& novasOpcoes) { opcoes = novasOpcoes; }
 };
 
 #endif // PERGUNTA_H

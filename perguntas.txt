@@ -102,7 +102,7 @@
 102;1;Esportes;Qual país sediou as Olimpíadas de 2016?;China;Reino Unido;Brasil;Rússia;C;Cidade-sede: Rio de Janeiro.
 103;1;Esportes;Quem é conhecido como "O Maior" no boxe?;Floyd Mayweather;Mike Tyson;Muhammad Ali;Manny Pacquiao;C;Conhecido por suas habilidades e carisma.
 104;1;Esportes;Qual seleção venceu a Copa do Mundo de 2014?;Argentina;Alemanha;Brasil;Espanha;B;Vitória histórica sobre o Brasil no Mineirão.
-105;2;Esportes;Qual jogador é conhecido como "O Fenômeno"?;Ronaldo Nazário;Ronaldo Fenômeno;Ronaldinho Gaúcho;Roberto Carlos;B;Brasileiro famoso no futebol.
+105;2;Esportes;Qual jogador é conhecido como "O Fenômeno"?;Pelé;Ronaldo Fenômeno;Ronaldinho Gaúcho;Roberto Carlos;B;Brasileiro famoso no futebol.
 106;2;Esportes;Qual nadador detém o recorde de mais medalhas olímpicas?;Michael Phelps;Mark Spitz;Ian Thorpe;Ryan Lochte;A;Especialista em nado livre e borboleta.
 107;2;Esportes;Qual é a distância oficial de uma maratona?;42,195 km;40 km;50 km;35 km;A;Correu por Filipe Deschamps em 1896.
 108;2;Esportes;Qual jogador de futebol tem o recorde de mais gols na história das Copas do Mundo?;Pelé;Ronaldo Fenômeno;Miroslav Klose;Cristiano Ronaldo;C;Jogador alemão aposentado.
@@ -122,3 +122,33 @@
 122;5;Esportes;Qual é a principal competição de atletismo a nível mundial?;Copa do Mundo;Jogos Olímpicos;Mundial de Atletismo;Championship League;C;Organizado pela IAAF.
 123;5;Esportes;Qual é a principal competição de ciclismo de pista?;Tour de France;Giro d'Italia;UCI Track Cycling World Championships;Vuelta a España;C;Organizada pela UCI.
 124;5;Esportes;Qual é a principal competição de beisebol a nível mundial?;World Series;Copa do Mundo de Beisebol;Champions League de Beisebol;Little League World Series;A;Realizada nos Estados Unidos.
+125;1;Ciência;Qual é o símbolo químico da água?;H2O;CO2;O2;NaCl;A;Composto por hidrogênio e oxigênio.
+126;1;Ciência;Qual planeta é conhecido como o Planeta Vermelho?;Vênus;Terra;Marte;Júpiter;C;Quarto planeta a partir do Sol.
+127;1;Ciência;Qual é o processo pelo qual as plantas produzem seu alimento?;Respiração;Digestão;Fotossíntese;Transpiração;C;Usa luz solar para converter CO2 e água em glicose.
+128;1;Ciência;Qual gás os humanos exalam durante a respiração?;Oxigênio;Nitrogênio;Dióxido de Carbono;Hidrogênio;C;Usado pelas plantas na fotossíntese.
+129;1;Ciência;Qual é o maior órgão do corpo humano?;Coração;Pele;Fígado;Cérebro;B;Protege os órgãos internos.
+130;1;Ciência;Qual é a unidade básica da vida?;Átomo;Molécula;Célula;Tecido;C;Estrutura fundamental de todos os organismos vivos.
+131;2;Ciência;Qual organela é conhecida como a central de energia da célula?;Núcleo;Mitocôndria;Ribossomo;Cloroplasto;B;Local do processo de respiração celular.
+132;2;Ciência;Qual é o elemento químico mais abundante no Sol?;Oxigênio;Carbono;Hidrogênio;Nitrogênio;C;Submete-se à fusão nuclear.
+133;2;Ciência;Qual é a força que nos mantém no chão?;Eletromagnetismo;Gravidade;Atrito;Inércia;B;Introduzida por Newton.
+134;2;Ciência;Qual é a fórmula química do sal de cozinha?;H2O;CO2;NaCl;CH4;C;Composto de sódio e cloro.
+135;2;Ciência;Quais células do sangue transportam oxigênio?;Células vermelhas;Células brancas;Plaquetas;Plasma;A;Contêm hemoglobina.
+136;2;Ciência;Qual é o estado físico da água a temperaturas abaixo de 0°C?;Gasoso;Líquido;Sólido;Plasma;C;Forma gelo.
+137;3;Ciência;Qual é a segunda lei da termodinâmica?;Energia não pode ser criada ou destruída.;A entropia de um sistema isolado sempre aumenta.;Para cada ação há uma reação igual e oposta.;Objetos em movimento continuam em movimento a menos que sejam parados.;B;Relacionada ao aumento da desordem em um sistema.
+138;3;Ciência;Qual é a principal diferença entre mitose e meiose?;Mitose resulta em quatro células.;Meiose resulta em duas células idênticas.;Mitose é para crescimento;Meiose é para reprodução.;Meiose ocorre em células somáticas.;C;Mitose produz células diploides; meiose, haploides.
+139;3;Ciência;Qual é o gás mais abundante na atmosfera terrestre?;Oxigênio;Dióxido de Carbono;Nitrogênio;Hidrogênio;C;Compõe cerca de 78%.
+140;3;Ciência;Qual organela é responsável pela fotossíntese?;Mitocôndria;Núcleo;Cloroplasto;Retículo endoplasmático Golgiense;C;Encontrada em células vegetais.
+141;3;Ciência;Qual é o estudo dos terremotos?;Sismologia;Meteorologia;Volcanologia;Oceanografia;A;Relaciona-se com ondas sísmicas.
+142;3;Ciência;Qual é a unidade de medida da intensidade de um terremoto?;Newton;Joule;Richter;Pascal;C;Escala logarítmica.
+143;4;Ciência;Qual partícula tem carga negativa?;Próton;Nêutron;Elétron;Positron;C;Encontra-se orbitando o núcleo.
+144;4;Ciência;Qual é a lei que afirma que a energia total em um sistema fechado permanece constante?;Primeira lei de Newton;Lei da Conservação da Energia;Lei da Gravitação Universal;Lei de Boyle;B;Energia não pode ser criada ou destruída.
+145;4;Ciência;Qual é o principal processo pelo qual uma estrela gera energia?;Fissão nuclear;Fusão nuclear;Reações químicas;Colapso gravitacional;B;Combina núcleos leves para formar mais pesados.
+146;4;Ciência;Qual é o princípio que diz que os elétrons ocupam os níveis de energia mais baixos disponíveis?;Princípio de Pauli;Princípio de Heisenberg;Princípio de Aufbau;Regra de Hund;C;Descreve a configuração eletrônica.
+147;4;Ciência;Qual organela é responsável pelo empacotamento e envio de proteínas?;Mitocôndria;Núcleo;Ribossomo;Complexo de Golgi;D;Modifica e transporta proteínas.
+148;4;Ciência;Qual é a força responsável pela interação entre elétrons e prótons no átomo?;Força Gravitacional;Força Eletromagnética;Força Nuclear Forte;Força Nuclear Fraca;B;Mantém os elétrons em órbita ao redor do núcleo.
+149;4;Ciência;Qual é a teoria que descreve a interação entre partículas subatômicas através de bósons?;Teoria da Relatividade;Teoria Quântica;Teoria das Cordas;Modelo Padrão;D;Inclui partículas como fótons e gluons.
+150;5;Ciência;O que é o modelo quântico do átomo baseado?;Órbitas planetárias;Nuvens de elétrons;Níveis de energia fixos;Mecânica clássica;B;Eletrões existem em regiões probabilísticas.
+151;5;Ciência;Qual é a partícula subatômica responsável pela força forte?;Próton;Bóson W;Glúon;Neutrino;C;Mantém os prótons unidos no núcleo.
+152;5;Ciência;Qual é o estudo dos movimentos dos corpos celestes?;Geologia;Astronomia;Astrofísica;Cosmologia;B;Relacionado a planetas, estrelas e galáxias.
+153;5;Ciência;Qual é a teoria que explica a origem do universo a partir de uma expansão?;Teoria do Estado Estacionário;Teoria da Relatividade;Teoria do Big Bang;Teoria M;C;O universo começou há cerca de 13,8 bilhões de anos.
+154;5;Ciência;Qual é o nome da fronteira entre o núcleo e o manto da Terra?;Discontinuidade de Mohorovičić (Moho);Discontinuidade de Gutenberg;Discontinuidade de Lehmann;Zona de Benioff;B;Marca mudança na propagação das ondas sísmicas.

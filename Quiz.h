@@ -15,12 +15,10 @@ private:
     Pergunta sortearPergunta(int nivel);
     Pergunta sortearPerguntaPorCategoria(int nivel, const string& categoria);
     void exibirPergunta(const Pergunta& pergunta);
-    void salvarPontuacao(const Jogador& jogador);
+    void salvarPontuacao(const Usuario& usuario);
     void excluirAlternativas(Pergunta& pergunta);
     void exibirRanking();
-    bool perguntaJaFeita(int id); // Declaração do método
     vector<Pergunta> perguntas; // Supondo que as perguntas são carregadas aqui
-    vector<int> perguntasFeitas; // IDs das perguntas já feitas
 };
 
 #endif // QUIZ_H

@@ -6,6 +6,7 @@
 #include <iomanip>
 #include <sstream>
 #include <cstring>
+#include <unordered_set>
 
 void Quiz::modoIndividual() {
     cout << "Bem-vindo ao Modo Individual! Digite seu nome: ";
@@ -13,17 +14,19 @@ void Quiz::modoIndividual() {
     cin >> nome;
 
     Jogador jogador(nome);
-    cout << "Boa sorte, " << jogador.nome << "! O jogo vai começar!\n";
+    Usuario* usuario = &jogador;
+    cout << "Boa sorte, " << usuario->obterNome() << "! O jogo vai começar!\n";
 
-    int nivelAtual = 1;
+    int nivelAtual = 1; // Começamos no nível 1
     int acertosConsecutivos = 0;
     int proximaPerguntaEspecial = 100;
+    unordered_set<int> perguntasJaFeitas;
 
     while (true) {
-        if (jogador.pontuacao >= proximaPerguntaEspecial) {
+        if (jogador.getPontuacao() >= proximaPerguntaEspecial) {
             cout << "Você desbloqueou uma pergunta especial! Escolha sua categoria favorita.\n";
             cout << "Categorias disponíveis:\n";
-            
+            // Supondo que as categorias são armazenadas em um vetor de strings
             vector<string> categorias = {"Música", "História", "Ciência", "Geografia", "Esportes"};
             for (size_t i = 0; i < categorias.size(); ++i) {
                 cout << i + 1 << ". " << categorias[i] << "\n";
@@ -37,7 +40,7 @@ void Quiz::modoIndividual() {
 
             cout << "Escolha uma opção:\n";
             cout << "1. Responder\n";
-            cout << "2. Sair do jogo\n";
+            cout << "5. Sair do jogo\n";
             int escolha;
             cin >> escolha;
 
@@ -47,29 +50,34 @@ void Quiz::modoIndividual() {
                 cin >> resposta;
                 resposta = toupper(resposta);
 
-                if (resposta == pergunta.resposta) {
+                if (resposta == pergunta.getResposta()) {
                     cout << "Parabéns, você acertou a pergunta especial!\n";
-                    jogador.pontuacao += 80;
+                    jogador.setPontuacao(jogador.getPontuacao() + 80);
                 } else {
-                    cout << "Que pena, você errou a pergunta especial. Resposta correta era " << pergunta.resposta << ".\n";
+                    cout << "Que pena, você errou a pergunta especial. Resposta correta era " << pergunta.getResposta() << ".\n";
                 }
-                cout << "Pontuação atual: " << jogador.pontuacao << "\n";
-            } else if (escolha == 2) {
-                cout << "Você escolheu sair. Pontuação final: " << jogador.pontuacao << "\n";
+                cout << "Pontuação atual: " << jogador.getPontuacao() << "\n";
+            } else if (escolha == 5) {
+                cout << "Você escolheu sair. Pontuação final: " << jogador.getPontuacao() << "\n";
                 salvarPontuacao(jogador);
                 return;
             } else {
                 cout << "Opção inválida.\n";
             }
 
-            proximaPerguntaEspecial += 200; 
+            proximaPerguntaEspecial += 200; // Atualiza o limite para a próxima pergunta especial
         }
 
-        Pergunta pergunta = sortearPergunta(nivelAtual); 
-        cout << "Pergunta ID: " << pergunta.id << endl; 
+        Pergunta pergunta = sortearPergunta(nivelAtual); // Método que sorteia pergunta com base no nível
+
+        // Verificar se a pergunta já foi feita
+        while (perguntasJaFeitas.find(pergunta.getId()) != perguntasJaFeitas.end()) {
+            pergunta = sortearPergunta(nivelAtual);
+        }
+        perguntasJaFeitas.insert(pergunta.getId());
 
         while (true) {
-            exibirPergunta(pergunta);
+            exibirPergunta(pergunta); // Exibe a pergunta para o jogador
 
             cout << "Escolha uma opção:\n";
             cout << "1. Responder\n";
@@ -84,53 +92,54 @@ void Quiz::modoIndividual() {
                 cout << "Digite sua resposta (A, B, C, D): ";
                 char resposta;
                 cin >> resposta;
-                resposta = toupper(resposta); 
+                resposta = toupper(resposta); // Converter para maiúscula
 
-                if (resposta == pergunta.resposta) {
+                if (resposta == pergunta.getResposta()) {
                     cout << "Parabéns, você acertou!\n";
-                    jogador.pontuacao += nivelAtual * 10;
+                    jogador.setPontuacao(jogador.getPontuacao() + nivelAtual * 10);
                     acertosConsecutivos++;
-                    if (acertosConsecutivos >= 5 && nivelAtual < 4) {
+                    if (acertosConsecutivos >= 3 && nivelAtual < 4) { // Alterado de 5 para 3
                         nivelAtual++;
                         acertosConsecutivos = 0;
                     }
                 } else {
-                    cout << "Que pena, você errou. Resposta correta era " << pergunta.resposta << ".\n";
+                    cout << "Que pena, você errou. Resposta correta era " << pergunta.getResposta() << ".\n";
                     salvarPontuacao(jogador);
-                    cout << "Pontuação final: " << jogador.pontuacao << "\n";
+                    cout << "Pontuação final: " << jogador.getPontuacao() << "\n";
                     cout << "Recordes do Ranking:\n";
                     exibirRanking();
-                    return;
+                    return; // Termina o jogo
                 }
-                cout << "Pontuação atual: " << jogador.pontuacao << "\n";
+                cout << "Pontuação atual: " << jogador.getPontuacao() << "\n";
                 break;
             } else if (escolha == 2) {
-                if (jogador.excluirAlternativas > 0) {
+                if (jogador.getExcluirAlternativas() > 0) {
                     excluirAlternativas(pergunta);
-                    jogador.excluirAlternativas--;
-                    cout << "Ajudas restantes - Excluir Alternativas: " << jogador.excluirAlternativas << "\n";
+                    jogador.setExcluirAlternativas(jogador.getExcluirAlternativas() - 1);
+                    cout << "Ajuda disponível - Excluir Alternativas: " << jogador.getExcluirAlternativas() << "\n";
+                    exibirPergunta(pergunta); // Exibir a pergunta novamente após excluir alternativas
                 } else {
                     cout << "Ajuda não disponível: Excluir duas alternativas.\n";
                 }
             } else if (escolha == 3) {
-                if (jogador.pular > 0) {
+                if (jogador.getPular() > 0) {
                     cout << "Você escolheu pular a pergunta.\n";
-                    jogador.pular--;
-                    cout << "Ajudas restantes - Pular: " << jogador.pular << "\n";
-                    break; 
+                    jogador.setPular(jogador.getPular() - 1);
+                    cout << "Ajuda disponível - Pular: " << jogador.getPular() << "\n";
+                    break; // Passa para a próxima pergunta
                 } else {
                     cout << "Ajuda não disponível: Pular a pergunta.\n";
                 }
             } else if (escolha == 4) {
-                if (jogador.dica > 0) {
-                    cout << "Dica: " << pergunta.dica << "\n";
-                    jogador.dica--;
-                    cout << "Ajudas restantes - Dica: " << jogador.dica << "\n";
+                if (jogador.getDica() > 0) {
+                    cout << "Dica: " << pergunta.getDica() << "\n";
+                    jogador.setDica(jogador.getDica() - 1);
+                    cout << "Ajuda disponível - Dica: " << jogador.getDica() << "\n";
                 } else {
                     cout << "Ajuda não disponível: Dica.\n";
                 }
             } else if (escolha == 5) {
-                cout << "Você escolheu sair. Pontuação final: " << jogador.pontuacao << "\n";
+                cout << "Você escolheu sair. Pontuação final: " << jogador.getPontuacao() << "\n";
                 salvarPontuacao(jogador);
                 return;
             } else {
@@ -139,35 +148,24 @@ void Quiz::modoIndividual() {
         }
     }
 
-    cout << "Pontuação final: " << jogador.pontuacao << "\n";
+    cout << "Pontuação final: " << jogador.getPontuacao() << "\n";
     cout << "Recordes do Ranking:\n";
     exibirRanking();
-}
-
-bool Quiz::perguntaJaFeita(int id) {
-    return find(perguntasFeitas.begin(), perguntasFeitas.end(), id) != perguntasFeitas.end();
 }
 
 Pergunta Quiz::sortearPergunta(int nivel) {
     srand(time(0));
     vector<Pergunta> perguntasNivel;
     for (const auto& pergunta : perguntas) {
-        if (pergunta.nivel == nivel && !perguntaJaFeita(pergunta.id)) {
+        if (pergunta.getNivel() == nivel) {
             perguntasNivel.push_back(pergunta);
         }
     }
-    cout << "Perguntas disponíveis para o nível " << nivel << ": " << perguntasNivel.size() << endl; // Debug
     if (perguntasNivel.empty()) {
         cerr << "Nenhuma pergunta disponível para o nível " << nivel << ".\n";
-        exit(1); // 
+        exit(1); // Termina o programa com erro
     }
     int indice = rand() % perguntasNivel.size();
-    perguntasFeitas.push_back(perguntasNivel[indice].id);
-    cout << "Perguntas feitas: "; // Debug: Imprimir vetor de perguntasFeitas
-    for (int id : perguntasFeitas) {
-        cout << id << " ";
-    }
-    cout << endl;
     return perguntasNivel[indice];
 }
 
@@ -175,7 +173,7 @@ Pergunta Quiz::sortearPerguntaPorCategoria(int nivel, const string& categoria) {
     srand(time(0));
     vector<Pergunta> perguntasNivelCategoria;
     for (const auto& pergunta : perguntas) {
-        if (pergunta.nivel == nivel && pergunta.categoria == categoria && !perguntaJaFeita(pergunta.id)) {
+        if (pergunta.getNivel() == nivel && pergunta.getCategoria() == categoria) {
             perguntasNivelCategoria.push_back(pergunta);
         }
     }
@@ -184,24 +182,19 @@ Pergunta Quiz::sortearPerguntaPorCategoria(int nivel, const string& categoria) {
         exit(1); // Termina o programa com erro
     }
     int indice = rand() % perguntasNivelCategoria.size();
-    perguntasFeitas.push_back(perguntasNivelCategoria[indice].id);
-    cout << "Perguntas feitas: "; // Debug: Imprimir vetor de perguntasFeitas
-    for (int id : perguntasFeitas) {
-        cout << id << " ";
-    }
-    cout << endl;
     return perguntasNivelCategoria[indice];
 }
 
 void Quiz::exibirPergunta(const Pergunta& pergunta) {
-    cout << "Nível: " << pergunta.nivel << "\n";
-    cout << "Pergunta: " << pergunta.enunciado << endl;
-    for (size_t i = 0; i < pergunta.opcoes.size(); ++i) {
-        cout << char('A' + i) << ": " << pergunta.opcoes[i] << endl;
+    cout << "Nível: " << pergunta.getNivel() << "\n";
+    cout << "Pergunta: " << pergunta.getEnunciado() << endl;
+    vector<string> opcoes = pergunta.getOpcoes();
+    for (size_t i = 0; i < opcoes.size(); ++i) {
+        cout << char('A' + i) << ": " << opcoes[i] << endl;
     }
 }
 
-void Quiz::salvarPontuacao(const Jogador& jogador) {
+void Quiz::salvarPontuacao(const Usuario& usuario) {
     ifstream arquivoLeitura("pontuacoes.txt");
     ofstream arquivoEscrita("pontuacoes_temp.txt");
     bool encontrado = false;
@@ -220,10 +213,10 @@ void Quiz::salvarPontuacao(const Jogador& jogador) {
         ss >> label >> nome >> pontuacaoStr >> pontuacao;
         nome = nome.substr(0, nome.size() - 1); // Remove the comma at the end
 
-        if (strcmp(nome.c_str(), jogador.nome.c_str()) == 0) {
+        if (strcmp(nome.c_str(), usuario.obterNome().c_str()) == 0) {
             encontrado = true;
-            if (jogador.pontuacao > pontuacao) {
-                arquivoEscrita << "Nome: " << jogador.nome << ", Pontuação: " << jogador.pontuacao << endl;
+            if (usuario.getPontuacao() > pontuacao) {
+                arquivoEscrita << "Nome: " << usuario.obterNome() << ", Pontuação: " << usuario.getPontuacao() << endl;
             } else {
                 arquivoEscrita << linha << endl;
             }
@@ -233,7 +226,7 @@ void Quiz::salvarPontuacao(const Jogador& jogador) {
     }
 
     if (!encontrado) {
-        arquivoEscrita << "Nome: " << jogador.nome << ", Pontuação: " << jogador.pontuacao << endl;
+        arquivoEscrita << "Nome: " << usuario.obterNome() << ", Pontuação: " << usuario.getPontuacao() << endl;
     }
 
     arquivoLeitura.close();
@@ -245,7 +238,7 @@ void Quiz::salvarPontuacao(const Jogador& jogador) {
 
 void Quiz::excluirAlternativas(Pergunta& pergunta) {
     vector<int> erradas;
-    int indiceCorreto = pergunta.resposta - 'A'; // Obter o índice da resposta correta
+    int indiceCorreto = pergunta.getResposta() - 'A'; // Obter o índice da resposta correta
     for (int i = 0; i < 4; i++) {
         if (i != indiceCorreto) {
             erradas.push_back(i); // Adicionar índices das opções incorretas
@@ -255,9 +248,11 @@ void Quiz::excluirAlternativas(Pergunta& pergunta) {
     random_shuffle(erradas.begin(), erradas.end());
     erradas.resize(2);
 
+    vector<string> opcoes = pergunta.getOpcoes();
     for (int idx : erradas) {
-        pergunta.opcoes[idx] = ""; // Esconder as opções removidas
+        opcoes[idx] = ""; // Esconder as opções removidas
     }
+    pergunta.setOpcoes(opcoes); // Atualizar as opções da pergunta
     cout << "Duas opções incorretas foram removidas.\n";
 }
 
@@ -303,9 +298,6 @@ void Quiz::carregarPerguntas(const string& arquivoNome) {
         int nivel = stoi(nivelStr);
         vector<string> opcoes = {opcaoA, opcaoB, opcaoC, opcaoD};
         perguntas.emplace_back(id, nivel, categoria, enunciado, opcoes, resposta[0], dica);
-
-        // Debug: Print the details of the loaded question
-        cout << "Carregada pergunta ID: " << id << ", Nível: " << nivel << ", Categoria: " << categoria << endl;
     }
 
     arquivo.close();
