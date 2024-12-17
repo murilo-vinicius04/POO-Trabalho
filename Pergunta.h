@@ -7,15 +7,16 @@ using namespace std;
 
 class Pergunta {
 private:
-    int id;
-    int nivel;
-    string categoria;
-    string enunciado;
-    vector<string> opcoes;
-    char resposta;
-    string dica;
+    int id; // Identificador único da pergunta
+    int nivel; // Nível de dificuldade da pergunta
+    string categoria; // Categoria da pergunta
+    string enunciado; // Texto da pergunta
+    vector<string> opcoes; // Vetor com as alternativas (A, B, C, D)
+    char resposta; // Letra da resposta correta (A, B, C ou D)
+    string dica; // Dica opcional para ajudar o jogador
 
 public:
+    // Construtor que inicializa todos os atributos
     Pergunta(int _id, int _nivel, string _categoria, string _enunciado, vector<string> _opcoes, char _resposta, string _dica = "")
         : id(_id), nivel(_nivel), categoria(_categoria), enunciado(_enunciado), opcoes(_opcoes), resposta(toupper(_resposta)), dica(_dica) {}
 
@@ -27,6 +28,7 @@ public:
     // Destrutor
     ~Pergunta() {}
 
+    // Métodos de acesso e modificação dos atributos
     int getId() const { return id; }
     void setId(int i) { id = i; }
 
